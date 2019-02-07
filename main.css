@@ -21,7 +21,21 @@ section {
     height: 80vh;
     width: 80vw;
 }
-
+.selected{
+    font-size: 4rem;
+    margin: 0;
+}
+.studentSelected{
+    font-size: 4rem;
+}
+#start{
+    margin: 3em;
+    height: 10vh;
+    transition: all .2s ease-in-out;
+}
+#start:hover{
+    transform: scale(1.1);
+}
 canvas {
     display: block;
     position: fixed;

@@ -1,4 +1,36 @@
-let students = ['one','two','three','four','five']
+let students = ['Darnell',
+  'JJ',
+  'Christina',
+  'Joseph',
+  'Brandon C',
+  'Michael',
+  'Eunice',
+  'Matthew',
+  'Jonathan R',
+  'Luke',
+  'Nicolette',
+  'Enrique',
+  'Amberly',
+  'Ronni',
+  'Alomgir',
+  'Heggy',
+  'Bryant',
+  'Rhea',
+  'Isaac',
+  'Justin',
+  'Brandon J',
+  'Tristan',
+  'Lourdes',
+  'Nassima',
+  'Jason',
+  'Ghenet',
+  'Tiffany',
+  'Karma',
+  'Paris',
+  'Chike',
+  'Siri',
+  'Leonardo'
+]
 let studentsAnswered = []
 
 let studentShufflePull = () => {
