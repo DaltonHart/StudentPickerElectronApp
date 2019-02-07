@@ -1,6 +1,6 @@
 {
   "name": "studentpicker",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An application to randomize student to answer",
   "main": "main.js",
   "scripts": {
