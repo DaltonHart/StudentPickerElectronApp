@@ -1,0 +1,23 @@
+{
+  "name": "studentpicker",
+  "version": "0.0.1",
+  "description": "An application to randomize student to answer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DaltonHart/StudentPickerElectronApp.git"
+  },
+  "author": "daltonhart daltonvaren@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaltonHart/StudentPickerElectronApp/issues"
+  },
+  "homepage": "https://github.com/DaltonHart/StudentPickerElectronApp#readme",
+  "devDependencies": {
+    "electron": "^4.0.4"
+  }
+}
