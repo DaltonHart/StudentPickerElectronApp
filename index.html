@@ -5,13 +5,27 @@
   <meta charset="UTF-8">
   <title>Time to Answer!</title>
   <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-    crossorigin="anonymous"></script>
-  <script src="semantic/dist/semantic.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="semantic/dist/semantic.min.js" defer></script>
+  <script src="app.js" defer></script>
+  <script>if (window.module) module = window.module;</script>
 </head>
 
 <body>
-  <h1>Hello World!</h1>
+  <section>
+      <div class="ui raised segment student">
+          <h1 class="selected">Who's next?</h1>
+          <h1 class="studentSelected"></h1>
+          <button id="start" class="ui negative basic button">Answer Time!</button>
+        </div>
+  </section>
+  <canvas id="canvas"></canvas>
+  
 </body>
 
 </html>

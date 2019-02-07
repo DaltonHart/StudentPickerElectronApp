@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(141, 6, 13);
+    position: absolute;
+}
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.student{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    width: 80vw;
+}
+
+canvas {
+    display: block;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
