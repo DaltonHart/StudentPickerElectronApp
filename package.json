@@ -1,6 +1,6 @@
 {
   "name": "studentpicker",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "An application to randomize student to answer",
   "main": "main.js",
   "scripts": {
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/DaltonHart/StudentPickerElectronApp#readme",
   "devDependencies": {
     "electron": "^4.0.4"
+  },
+  "dependencies": {
+    "semantic-ui": "^2.4.2"
   }
 }
